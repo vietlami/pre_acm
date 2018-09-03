@@ -5,6 +5,8 @@
 # @File : 2-1.py 
 # @Desp : python
 
+
+#  水仙花数
 n = 100
 
 while n < 1000:
