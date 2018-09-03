@@ -5,6 +5,8 @@
 # @File : 2-3.py 
 # @Desp : python
 
+# 倒三角形
+
 n = int(input("请输入一个正整数"))
 s = 2*n-1
 print(s*"#")
