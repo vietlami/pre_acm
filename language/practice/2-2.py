@@ -5,6 +5,8 @@
 # @File : 2-2.py 
 # @Desp : python
 
+#  韩信点兵
+
 a = int(input("请输入三人一排余数"))
 b = int(input("请输入五人一排余数"))
 c = int(input("请输入七人一排余数"))
