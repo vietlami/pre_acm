@@ -6,10 +6,31 @@
 # @Desp : python
 
 
+# 逆序输出
+
 x = 0
 a = []
 
 while x >= 0:
     x = int(input("请输入整数"))
-    a.append(x)
-    print(sorted(a,reverse=True))
+    if a == []:
+        a.append(x)
+        print(a)
+        continue
+    # print(sorted(a,reverse=True))
+
+    for i in a:
+        print(x)
+        print(i)
+        if x >= i:
+            index = a.index(i)
+            a.insert(index, x)
+            print(a)
+            break
+        else:
+            if a[-1] == i:
+                a.append(x)
+                print(a)
+                break
+            else:
+                continue
